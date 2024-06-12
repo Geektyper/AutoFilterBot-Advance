@@ -1,6 +1,6 @@
 from info import DATABASE_URL
 from pymongo import MongoClient
-from pyrogram import filters, enums
+from pyrogram import filters, Client, enums
 from pyrogram.errors import UserNotParticipant, ChatAdminRequired, UsernameNotOccupied, UsernameInvalid
 from pyrogram.types import *
 from plugins.helpers.fsub_helpers import is_admin, can_ban_members, can_change_info
